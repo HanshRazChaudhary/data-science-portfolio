@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from bson import ObjectId
 
 # Not A Good Idea To Include ID And Password Here:
-client = MongoClient("mongodb+srv://new_user_101:Cb8dL5sZTx7Dnt3F@cluster0.l4jty4i.mongodb.net/")
+client = MongoClient("mongodb+srv://new_user")
 try:
     client.admin.command('ping')
     print("Connected successfully!")
